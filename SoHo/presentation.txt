@@ -1,0 +1,19 @@
+1. Which data structure(s) did you use for part 1? Why did you select these data structures?
+
+For part 1 of this project, I simply store the different type of food in a LinkedList.
+
+2. What is the runtime (in asymptotic notation) of searching for a food type? Do you think there is a more efficient runtime?
+
+Therefore, for N different food types, the runtime for searching a food type is O(N). That's because the programme will have to go through all N different food types to determine if any of them starts with the input string, provided by the user.
+
+3. Which data structures did you use for part 2? Why did you select these data structures?
+
+For part 1 of this project, I simply store the restaurants in a HashMap. The food type provides the key, while the value is a List of restaurants that serve that particular food type.
+
+4. What is the runtime (in asymptotic notation) of retrieving the restaurant data? Do you think there is a more efficient runtime?
+
+If there are N restaurants, the runtime for retrieving the relevant restaurants (in accordance to the input user) is O(N). That's because, in the situation where all N restaurants serve the same type of food, the programme will have to reiterate N times to retieve them all.
+
+5. Outside of this project, what are other innovative ways you can utilize data structures?
+
+I suppose we could use HashMap to store username-password data. 
